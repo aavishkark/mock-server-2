@@ -1,8 +1,11 @@
 {
     "products":[],
     "user":[
-        {"name":"Avi",
+        {
+         "id":1,
+         "name":"Avi",
          "email":"avi@gmail.com",
+         "password":"avi",
          "cart":[{"product":"Book","quantity":"12","price":"20"}],
          "bills":[{"billid":"BILL0000123","date":"01/12/2023","total":"120"}]}
     ],
