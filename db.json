@@ -30,7 +30,7 @@
          "name":"avi",
          "email":"avi@gmail.com",
          "password":"avi",
-         "cart":{"name":"Book","quantity":"12","price":"20"},
+         "cart":[{"name":"Book","quantity":"12","price":"20"}],
          "bills":[{"billid":"BILL0000123","date":"2023/12/10","total":"120"}]}
     ],
     "sales":[]
