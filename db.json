@@ -30,8 +30,13 @@
          "name":"avi",
          "email":"avi@gmail.com",
          "password":"avi",
-         "cart":[{"name":"Book","quantity":"12","price":"20"}],
-         "bills":[{"billid":"BILL0000123","date":"2023/12/10","total":"120"}]}
+         "cart":[{"name":"Book","quantity":"12"},{"name":"Pen","quantity":"22"},{"name":"Eraser","quantity":"10"},{"name":"Sharpner","quantity":"15"}],
+         "bills":[{"billid":"BILL0000123","date":"2023/12/10","total":"120"},{"billid":"BILL0000124","date":"2023/12/11","total":"320"},{"billid":"BILL0000122","date":"2023/11/02","total":"20"}]}
     ],
-    "sales":[]
+    "sales":{
+        "id":1,
+         "bills":[{"billid": "BILL0000123",
+              "date": "2023/12/10",
+              "total": "120"},{"billid":"BILL0000124","date":"2023/12/11","total":"320"},{"billid":"BILL0000122","date":"2023/11/02","total":"20"}]
+      }
 }
