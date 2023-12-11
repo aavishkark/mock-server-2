@@ -1,12 +1,36 @@
 {
-    "products":[],
+    "products":[{
+        "id":1,
+        "name":"Book",
+        "price":"20"
+    },
+    {
+        "id":2,
+        "name":"Pen",
+        "price":"10"
+    },
+    {
+        "id":3,
+        "name":"Eraser",
+        "price":"5"
+    },
+    {
+        "id":4,
+        "name":"Sharpner",
+        "price":"5"
+    },
+    {
+        "id":5,
+        "name":"Ruler",
+        "price":"15"
+    }],
     "user":[
         {
          "id":1,
-         "name":"Avi",
+         "name":"avi",
          "email":"avi@gmail.com",
          "password":"avi",
-         "cart":[{"product":"Book","quantity":"12","price":"20"}],
+         "cart":{"name":"Book","quantity":"12","price":"20"},
          "bills":[{"billid":"BILL0000123","date":"01/12/2023","total":"120"}]}
     ],
     "sales":[]
